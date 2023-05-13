@@ -2,8 +2,8 @@ from qiniu import Auth, put_file
 
 def imgurlget(localfile:str,key:str):
     # 获取Access Key 和 Secret Key 后，进行初始化对接：
-    q = Auth(access_key='CJOxxSFlmC8AWY32xY7C5sD8Tz7i4o-o-UCUTwmO',
-         secret_key='6u0dk_aqtDZu0hd8KoGJIrT07-cOd79oU8UVYagf')
+    q = Auth(access_key='',
+         secret_key='')
 
     # 上传的七牛云空间
     bucket_name = 'bicuisi'
